@@ -22,7 +22,7 @@
         "yiisoft/yii2": "2.*",
         "yiisoft/yii2-bootstrap": "2.*",
         "cebe/yii2-gravatar": "1.*",
-        "weison-tech/adminlte": "~2.0",
+        "weison-tech/adminlte": "dev-master",
         "rmrevin/yii2-fontawesome": "~2.9"
     },
     "autoload": {
