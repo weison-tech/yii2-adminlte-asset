@@ -41,7 +41,9 @@ class AdminLteAsset extends BaseAdminLteAsset
                 throw new Exception('Invalid skin specified');
             }
 
-            //$this->css[] = sprintf('css/skins/%s.min.css', $this->skin);
+            if (!YII_ENV_PROD) {
+                $this->css[] = sprintf('css/skins/%s.min.css', $this->skin);
+            }
         }
 
         parent::init();
